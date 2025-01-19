@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Video Player</title>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <h1>Welcome to Youtube Video Player!!!</h1>
+
+
+  <div class="container">
+
+    <input 
+      type="url" 
+      id="video-url" 
+      class="url-input" 
+      placeholder="Enter YouTube video URL">
+
+    <button class="play-button" onclick="embedVideo()">Play Video</button>
+
+    <div class="video-container" id="video-container">
+      <!-- The YouTube video will be embedded here -->
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
